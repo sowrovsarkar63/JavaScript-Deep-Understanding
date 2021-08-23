@@ -5,3 +5,4 @@ SIX CORE PART OF ANY PROGRAMMING LANGUAGE FOR ME JAVASCRIPT :)
 4.function
 5.object 
 6.Error Handling
+----------------
