@@ -28,7 +28,9 @@ const products = [
   { name: "notes pad", price: 30, color: "blue" },
 ];
 
-const productNames = products.map((product) => product.name);
+const productNames = products.map((product) => product);
+console.log(productNames);
 const productPrices = products.map((product) => product.price);
+const logTheProductName = products.forEach((product) => console.log(product));
 
-console.log(productPrices);
+// console.log(productPrices);
