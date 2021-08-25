@@ -21,15 +21,16 @@ const frontEndDev = {
     mid: "2.5 year",
     senior: "3-4 year",
     ceo: "5-6 year",
+    plane: ["job", "freelancing", "sass business"],
   },
 };
 
-const { position } = frontEndDev; //destructuring object
-const { junior = "I am already junior developer " } = position;
+// const { position } = frontEndDev; //destructuring object
+// const { junior = "I am already junior developer " } = position;
 
-console.log(junior);
-console.log(frontEndDev);
-
+/* console.log(junior);
+console.log(frontEndDev); */
+console.log(frontEndDev?.position?.plane); //use of optional chaining
 // Array destructuring
 
 const tech = [
