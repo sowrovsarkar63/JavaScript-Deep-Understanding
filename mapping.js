@@ -12,7 +12,9 @@ const SkillWithUpper = skills.map((skill) => {
 });
 // console.log(SkillWithUpper); // it will log uppercase skill
 
-const SquarOfNumbers = numbers.map((number) => {
-  return number * 2;
+const SquarOfNumbers = numbers.map((number, length, arr) => {
+  //   return number * length;
+  return arr;
 });
+
 console.log(SquarOfNumbers);
